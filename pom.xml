@@ -13,6 +13,7 @@
         <module>NYMag</module>
         <module>Reddit</module>
         <module>BarnesAndNoble1</module>
+        <module>Shopify</module>
     </modules>
     <dependencies>
         <dependency>

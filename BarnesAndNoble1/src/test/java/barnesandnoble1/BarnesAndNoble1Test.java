@@ -30,7 +30,6 @@ public class BarnesAndNoble1Test extends CommonAPI
         driver.findElement(By.xpath("//*[@id='topNav13']")).click();
         driver.findElement(By.xpath("//*[@id='hotBooksWithDesc_50%OffCalendars&Planners']")).click();
         Thread.sleep(2000);
-        //a[text()='Help']
     }
     @Test
     public void testThatBandNTop100PageWorks()
@@ -46,8 +45,6 @@ public class BarnesAndNoble1Test extends CommonAPI
         String url = "https://www.barnesandnoble.com/";
         driver.get(url);
         driver.findElement(By.xpath("//*[@id='topNav9']")).click();
-        //driver.findElement(By.xpath("//a[@href='https://www.barnesandnoble.com/b/games-collectibles/strategy-games/catan-games/_/N-1glsZ1qnd']")).click();
-        //driver.findElement(By.xpath("//a[text()='Catan Games']")).click();
     }
     @Test
     public void testSearchForBooksAboutTrojanWar()
