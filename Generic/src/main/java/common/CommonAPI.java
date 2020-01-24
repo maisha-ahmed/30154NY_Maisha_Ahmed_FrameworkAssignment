@@ -19,7 +19,7 @@ public class CommonAPI
                 "C:/Users/maish/Desktop/Demo/facebook/src/main/java/driver/chromedriver.exe");
         driver = new ChromeDriver();
         driver.manage().window().fullscreen();
-        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
     @AfterMethod
     public void tearDown()

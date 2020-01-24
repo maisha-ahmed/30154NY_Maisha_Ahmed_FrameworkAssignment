@@ -11,6 +11,8 @@
     <modules>
         <module>Generic</module>
         <module>NYMag</module>
+        <module>Reddit</module>
+        <module>BarnesAndNoble1</module>
     </modules>
     <dependencies>
         <dependency>
@@ -22,6 +24,12 @@
             <artifactId>selenium-chrome-driver</artifactId>
             <version>3.141.59</version>
             <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.propublica.maisha</groupId>
+            <artifactId>Generic</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 

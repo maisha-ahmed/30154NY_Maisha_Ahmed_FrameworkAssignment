@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="BarnesAndNobel1 Tests" parallel="false">
+    <test name = "BarnesAndNoble1 Test">
+        <classes>
+            <class name="barnesandnoble1.BarnesAndNoble1Test"/>
+        </classes>
+    </test>
+</suite>

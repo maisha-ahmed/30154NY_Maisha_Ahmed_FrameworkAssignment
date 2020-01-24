@@ -3,7 +3,6 @@ package nymag;
 import common.CommonAPI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
 public class NYMagTest extends CommonAPI
